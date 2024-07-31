@@ -183,3 +183,10 @@ Received Import Request.
   path: Assets/BodyTrackingManager.cs
   artifactKey: Guid(cc0a7ffe2b44c4d4bb1555a6dd780052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/BodyTrackingManager.cs using Guid(cc0a7ffe2b44c4d4bb1555a6dd780052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52283dd692bd65c194fb5b43a5cd6cc') in 0.223028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2496.287873 seconds.
+  path: Assets/BodyTrackingManager.cs
+  artifactKey: Guid(cc0a7ffe2b44c4d4bb1555a6dd780052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyTrackingManager.cs using Guid(cc0a7ffe2b44c4d4bb1555a6dd780052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4b1f567c45f25e2cdc590e3ecc4c64') in 0.004541 seconds 
+[usbmuxd] Attached: 38 00008027-001E30A80A0A402E

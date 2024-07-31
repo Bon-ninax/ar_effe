@@ -125,7 +125,12 @@ public class BodyTrackingManager : MonoBehaviour
         /// Update all line renderers.
         for (int i = 0; i < lineRenderers.Length; i++)
         {
-            lineRenderers[i].SetPositions(lineRendererTransforms[i]);
+            Vector3[] vec = new Vector3[lineRendererTransforms[i].Length];
+            for (int ti = 0; ti < lineRendererTransforms[i].Length; ti++)
+            {
+                vec[ti] = lineRendererTransforms[i][ti].position;
+            }
+                lineRenderers[i].SetPositions(vec);
         }
     }
 
