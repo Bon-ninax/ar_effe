@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections;
@@ -116,7 +117,7 @@ public class BodyTrackingManager : MonoBehaviour
         /// Update placement of all joints
         foreach (KeyValuePair<JointIndices3D, Transform> item in bodyJoints)
         {
-            if (item.Value == null || (int)item.Key == null)
+            if (item.Value == null || joints[(int)item.Key] == null)
                 continue;
             UpdateJointTransform(item.Value, joints[(int)item.Key]);
         }
@@ -135,41 +136,6 @@ public class BodyTrackingManager : MonoBehaviour
         jointT.localScale = bodyJoint.anchorScale * jointScaleModifier;
     }
 
-    void UpdateBody(ARHumanBody arBody)
-    {
-        Transform arBodyT = arBody.transform;
-
-        if (arBodyT == null)
-        {
-            Debug.Log("No root transform found for ARHumanBody");
-            return;
-        }
-
-        InitialiseObjects(arBodyT);
-
-        /// Update joint placement
-        NativeArray<XRHumanBodyJoint> joints = arBody.joints;
-        if (!joints.IsCreated) return;
-
-        /// Update placement of all joints
-        foreach (KeyValuePair<JointIndices3D, Transform> item in bodyJoints)
-        {
-            UpdateJointTransform(item.Value, joints[(int)item.Key]);
-        }
-
-        /// Update all line renderers.
-        for (int i = 0; i < lineRenderers.Length; i++)
-        {
-            lineRenderers[i].SetPositions(lineRendererTransforms[i]);
-        }
-    }
-
-    private void UpdateJointTransform(Transform jointT, XRHumanBodyJoint bodyJoint)
-    {
-        jointT.localPosition = bodyJoint.anchorPose.position;
-        jointT.localRotation = bodyJoint.anchorPose.rotation;
-        jointT.localScale = bodyJoint.anchorScale * jointScaleModifier;
-    }
     void OnHumanBodiesChanged(ARHumanBodiesChangedEventArgs eventArgs)
     {
         foreach (ARHumanBody humanBody in eventArgs.added)
