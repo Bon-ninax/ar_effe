@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FAF2803C-1269-21C3-3AE9-0C1412FA0BE7}</ProjectGuid>
+    <ProjectGuid>{B1FC8AFA-924E-A7DE-20E8-B4466B008EC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.InteractionSubsystems</AssemblyName>
@@ -738,15 +738,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{204459B2-9597-C5E1-A61F-66AD91C57E81}</Project>
+      <Project>{43D7D719-30F3-CED0-9A99-8419734C4611}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{F4529D99-A009-C049-B431-75AEF2CF90ED}</Project>
+      <Project>{C084F4D7-96D1-484B-B5E4-DECEE9EA688F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{A86C07DC-DDE5-A438-331E-A69CF30C44D6}</Project>
+      <Project>{3548B1CF-AB5F-47C7-7A56-74B7B86DD0A9}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

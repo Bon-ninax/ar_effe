@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3AD4E49F-C9CB-42A5-CB05-0198AEEAB0C1}</ProjectGuid>
+    <ProjectGuid>{89382686-1151-B337-6467-50FDB8D106CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</AssemblyName>
@@ -746,27 +746,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{E7D76624-E442-500A-3366-470439AD6A89}</Project>
+      <Project>{1D819503-7828-7F66-DD69-97DC30C8A63C}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
-      <Project>{8BE9D47E-5482-E9B2-FF4B-170025AB9A6B}</Project>
+      <Project>{B1307C74-4933-98CD-68AA-08459A6A83FC}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{F4529D99-A009-C049-B431-75AEF2CF90ED}</Project>
+      <Project>{C084F4D7-96D1-484B-B5E4-DECEE9EA688F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{A86C07DC-DDE5-A438-331E-A69CF30C44D6}</Project>
+      <Project>{3548B1CF-AB5F-47C7-7A56-74B7B86DD0A9}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{1433EAA2-DC00-74D6-1E66-24275A8A4BF6}</Project>
+      <Project>{BE9F9708-0462-583B-6786-8216AC50F8E6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E7DE008B-F39D-EF29-7579-E40A67E9839C}</Project>
+      <Project>{2AEC875F-323D-E21B-20E4-D44B14814538}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

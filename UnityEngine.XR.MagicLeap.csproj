@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5682BF6C-4CBD-90FC-9C0A-B5770E25AC7F}</ProjectGuid>
+    <ProjectGuid>{B9AE9CF9-9BDB-5D99-B481-41C3B7AF7658}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.XR.MagicLeap</AssemblyName>
@@ -789,35 +789,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{204459B2-9597-C5E1-A61F-66AD91C57E81}</Project>
+      <Project>{43D7D719-30F3-CED0-9A99-8419734C4611}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{7B8D0CB6-EB52-4213-03DF-135406DD48E4}</Project>
+      <Project>{CDF69996-1AB9-A4B1-8A33-CA25390D8E51}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.InteractionSubsystems.csproj">
-      <Project>{FAF2803C-1269-21C3-3AE9-0C1412FA0BE7}</Project>
+      <Project>{B1FC8AFA-924E-A7DE-20E8-B4466B008EC5}</Project>
       <Name>Unity.XR.InteractionSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{406D2419-BAA7-94A6-6CBD-E0FABEC1826A}</Project>
+      <Project>{8198ED2B-5458-BF42-AB25-7C6A3F9F4942}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{A8BE829A-C83E-67D2-0535-5DE4942A1A93}</Project>
+      <Project>{30A5240F-E748-96A5-CFEF-B2999A5FBB60}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{51B635C3-663C-2A3F-416B-372987F6B9A9}</Project>
+      <Project>{D90A9873-3404-0D1F-3882-819D5A7C672B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{F4529D99-A009-C049-B431-75AEF2CF90ED}</Project>
+      <Project>{C084F4D7-96D1-484B-B5E4-DECEE9EA688F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{A86C07DC-DDE5-A438-331E-A69CF30C44D6}</Project>
+      <Project>{3548B1CF-AB5F-47C7-7A56-74B7B86DD0A9}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
